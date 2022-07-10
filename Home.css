@@ -135,13 +135,13 @@
 .u-container-layout.hover .u-section-2 .u-image-1 {
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
 }.u-section-3 .u-sheet-1 {
-  min-height: 513px;
+  min-height: 493px;
 }
 
 .u-section-3 .u-group-1 {
   width: 500px;
   min-height: 413px;
-  margin: 10px auto -57px;
+  margin: 10px auto 20px;
 }
 
 .u-section-3 .u-container-layout-1 {
