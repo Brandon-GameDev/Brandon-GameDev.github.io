@@ -35,13 +35,13 @@
     width: 340px;
   }
 }.u-section-2 .u-sheet-1 {
-  min-height: 503px;
+  min-height: 543px;
 }
 
 .u-section-2 .u-group-1 {
   width: 500px;
   min-height: 413px;
-  margin: 0 auto -57px;
+  margin: 10px auto 20px;
 }
 
 .u-section-2 .u-container-layout-1 {
@@ -51,11 +51,11 @@
 .u-section-2 .u-image-1 {
   width: 400px;
   height: 277px;
-  transition-duration: 0.1s;
+  transition-duration: 0.25s;
   object-position: 50% 100%;
   transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
   box-shadow: 0 0 8px 0 rgba(0,0,0,1);
-  margin: 20px auto 10px;
+  margin: 40px auto 10px;
 }
 
 .u-section-2 .u-text-1 {
@@ -70,7 +70,7 @@
 }
 
 .u-section-2 .u-text-2 {
-  margin: 10px 0 20px;
+  margin: 10px 10px 40px;
 }
 
 @media (max-width: 1199px) {
@@ -88,6 +88,11 @@
   .u-section-2 .u-image-1 {
     width: 340px;
     height: 235px;
+  }
+
+  .u-section-2 .u-text-2 {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
@@ -130,13 +135,13 @@
 .u-container-layout.hover .u-section-2 .u-image-1 {
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
 }.u-section-3 .u-sheet-1 {
-  min-height: 493px;
+  min-height: 473px;
 }
 
 .u-section-3 .u-group-1 {
   width: 500px;
   min-height: 413px;
-  margin: 10px auto 20px;
+  margin: 20px auto;
 }
 
 .u-section-3 .u-container-layout-1 {
@@ -146,11 +151,11 @@
 .u-section-3 .u-image-1 {
   width: 400px;
   height: 317px;
-  transition-duration: 0.1s;
+  transition-duration: 0.25s;
   object-position: 50% 100%;
   transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
   box-shadow: 0 0 8px 0 rgba(0,0,0,1);
-  margin: 20px auto 0;
+  margin: 40px auto 20px;
 }
 
 .u-section-3 .u-text-1 {
@@ -165,7 +170,7 @@
 }
 
 .u-section-3 .u-text-2 {
-  margin: 10px 0 20px;
+  margin: 10px 10px 40px;
 }
 
 @media (max-width: 1199px) {
@@ -183,6 +188,11 @@
   .u-section-3 .u-image-1 {
     width: 340px;
     height: 270px;
+  }
+
+  .u-section-3 .u-text-2 {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
@@ -226,4 +236,156 @@
 .u-container-layout.hover .u-section-3 .u-image-1 {
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
   opacity: 1 !important;
+}.u-section-4 .u-sheet-1 {
+  min-height: 553px;
+}
+
+.u-section-4 .u-group-1 {
+  width: 500px;
+  min-height: 493px;
+  margin: 20px auto 40px;
+}
+
+.u-section-4 .u-container-layout-1 {
+  padding: 0;
+}
+
+.u-section-4 .u-group-2 {
+  width: 400px;
+  min-height: 317px;
+  transition-duration: 0.25s;
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
+  margin: 40px auto 10px;
+}
+
+.u-section-4 .u-container-layout-2 {
+  padding: 0;
+}
+
+.u-section-4 .u-image-1 {
+  width: 400px;
+  height: 317px;
+  transition-duration: 0.1s;
+  object-position: 50% 100%;
+  box-shadow: 0 0 8px 0 rgba(0,0,0,1);
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
+  margin: 0 auto 0 0;
+}
+
+.u-section-4 .u-text-1 {
+  margin: 10px 47px;
+}
+
+.u-section-4 .u-btn-1 {
+  transition-duration: 0.5s;
+  font-weight: 400;
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
+  padding: 0;
+}
+
+.u-section-4 .u-text-2 {
+  margin: 10px 10px 40px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-4 .u-group-1 {
+    min-height: 614px;
+  }
+
+  .u-section-4 .u-group-2 {
+    margin-top: 129px;
+  }
+
+  .u-section-4 .u-image-1 {
+    margin-top: -209px;
+  }
+
+  .u-section-4 .u-text-1 {
+    margin-top: 131px;
+  }
+
+  .u-section-4 .u-btn-1 {
+    font-style: normal;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-4 .u-group-1 {
+    width: 340px;
+    min-height: 701px;
+  }
+
+  .u-section-4 .u-group-2 {
+    width: 340px;
+    margin-top: 130px;
+  }
+
+  .u-section-4 .u-image-1 {
+    width: 340px;
+    height: 270px;
+    margin-top: -210px;
+  }
+
+  .u-section-4 .u-text-1 {
+    margin-top: 179px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-4 .u-text-2 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.u-section-4 .u-btn-1,
+.u-section-4 .u-btn-1:before,
+.u-section-4 .u-btn-1 > .u-container-layout:before {
+  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, background-size, background-position;
+}
+
+.u-section-4 .u-container-layout:hover .u-btn-1 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}
+
+.u-container-layout.hover .u-section-4 .u-btn-1 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}
+
+.u-section-4 .u-image-1,
+.u-section-4 .u-image-1:before,
+.u-section-4 .u-image-1 > .u-container-layout:before {
+  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, background-size, background-position;
+}
+
+.u-section-4 .u-container-layout:hover .u-image-1 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+  opacity: 1 !important;
+}
+
+.u-container-layout.hover .u-section-4 .u-image-1 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+  opacity: 1 !important;
+}
+
+.u-section-4 .u-group-2,
+.u-section-4 .u-group-2:before,
+.u-section-4 .u-group-2 > .u-container-layout:before {
+  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, background-size, background-position;
+}
+
+.u-section-4 .u-group-2.u-group-2.u-group-2:hover {
+  transform: scale(1.05) translateX(0px) translateY(0px) !important;
+}
+
+.u-section-4 .u-group-2.u-group-2.u-group-2.hover {
+  transform: scale(1.05) translateX(0px) translateY(0px) !important;
+}
+
+.u-section-4 .u-container-layout:hover .u-group-2 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}
+
+.u-container-layout.hover .u-section-4 .u-group-2 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
 }
