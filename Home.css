@@ -41,7 +41,6 @@
 .u-section-2 .u-group-1 {
   width: 500px;
   min-height: 413px;
-  height: auto;
   margin: 0 auto -57px;
 }
 
@@ -75,10 +74,6 @@
 }
 
 @media (max-width: 1199px) {
-  .u-section-2 .u-group-1 {
-    height: auto;
-  }
-
   .u-section-2 .u-btn-1 {
     font-style: normal;
   }
