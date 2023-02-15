@@ -17,12 +17,12 @@
   font-size: 1.125rem;
   font-weight: 300;
   width: 186px;
-  margin: 0 auto 10px;
+  margin: 0 auto;
 }
 
 .u-section-1 .u-text-3 {
   width: 660px;
-  margin: 10px auto 20px;
+  margin: 20px auto;
 }
 
 @media (max-width: 767px) {
