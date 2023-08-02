@@ -14,7 +14,7 @@
     <script type="application/ld+json">{
 		"@context": "http://schema.org",
 		"@type": "Organization",
-		"name": "Portfolio Site"
+		"name": "Portfolio Site"        
 }</script>
     <meta name="theme-color" content="#478ac9">
     <meta property="og:title" content="portfolio">
@@ -51,8 +51,17 @@
     <section class="u-border-1 u-border-custom-color-1 u-border-no-left u-border-no-right u-clearfix u-section-1" id="sec-014a">
       <div class="u-clearfix u-sheet u-sheet-1">
         <h2 class="u-align-center u-text u-text-default u-text-1">Summary</h2>
-        <p class="u-align-center u-text u-text-default u-text-2">Hi! My name is Brandon, I'm 21, and I'm an aspiring game developer in the UK. I mostly work in Unity and specialize in gameplay programming. I also have some experience working with Unreal Engine.<br>Below you can see my portfolio.
+        <p class="u-align-center u-text u-text-default u-text-2" id="age">Hi! My name is Brandon, I'm [age did not load], and I'm an aspiring game developer in the UK. I mostly work in Unity and specialize in gameplay programming. I also have some experience working with Unreal Engine.<br>Below you can see my portfolio.
         </p>
+          <script>
+    
+var birthDate = new Date("2001-06-16");
+var ageDifMs = Date.now() - birthDate.getTime();
+var ageDate = new Date(ageDifMs); // miliseconds from epoch
+var age = Math.abs(ageDate.getUTCFullYear() - 1970);
+
+document.getElementById("age").innerHTML = "Hi! My name is Brandon, I'm " + age + ", and I'm an aspiring game developer in the UK. I mostly work in Unity and specialize in gameplay programming. I also have some experience working with Unreal Engine.<br>Below you can see my portfolio.";
+</script>
       </div>
     </section>
     <section class="u-border-1 u-border-custom-color-1 u-border-no-left u-border-no-right u-clearfix u-section-2" id="sec-a669">
